@@ -25,3 +25,27 @@ Xem log
 Xem log chi tiết 
 
 `git log -p`
+
+Clone repo về local
+
+`git clone [URL cua Repo]`
+
+----
+
+Push repo từ local
+
+* Tạo repo từ local
+* Tạo repo trên git
+* Trên local, sử dụng lệnh:
+
+`git remote add origin [URL repo]`
+
+Có thể kiểm tra bằng lệnh:
+
+`git remote -v`
+
+* Push repo local:
+
+`git push origin master`
+
+
